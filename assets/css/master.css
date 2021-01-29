@@ -5,6 +5,9 @@
   border: 0px;
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  color: #32495B;
+}
 /* LAYOUT */
 /* float */
 div[class^="col_"]{
@@ -175,7 +178,7 @@ nav .select_part .box li select{
 /* NAV */
 /* INTRODUCTION */
 #introduction{
-  height: 700px;
+  height: 725px;
 }
 #introduction .container{
   background-image: url(../img/jumbotron.png);
@@ -189,20 +192,28 @@ nav .select_part .box li select{
   width: 70%;
   margin: 0 auto;
 }
+#introduction .container .row .col_50 > *{
+  margin-bottom: 25px;
+}
 #introduction .container .row h1{
-  font-size: 60px;
-  font-weight: bold;
-
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 50px;
 }
 #introduction .container .row p{
-  font-size: 20px;
-
-}
-#introduction .container .row button{
+  font-size: 18px;
+  line-height: 30px;
 }
 #introduction .container .row span{
   font-size: 15px;
 }
+/* greenspace */
+#greenspace{
+  border-top: 3px solid #32495B;
+  border-bottom: 3px solid #32495B;
+  height: 75px;
+}
+/* greenspace */
 /* INTRODUCTION */
 /* GREENSPACE */
 
