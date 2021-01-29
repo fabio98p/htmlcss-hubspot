@@ -60,6 +60,9 @@ div[class^="col_"]{
 .bg_pink{
   background-color: #FFF4EF
 }
+.bg_white{
+  background-color: #FFFFFF
+}
 
 /* background color */
 
@@ -215,15 +218,87 @@ nav .select_part .box li select{
 }
 /* greenspace */
 /* INTRODUCTION */
-/* GREENSPACE */
-
-/* GREENSPACE */
 /* HEADER */
 
 /* MAIN */
 /* MOTIVATIONAL PART */
-
+#motivational_part{
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+#motivational_part > *{
+  margin-bottom: 30px;
+}
+#motivational_part img{
+  margin: 60px 0 0 0;
+  height: 250px;
+}
+#motivational_part h1{
+font-size: 45px;
+font-weight: bolder;
+}
+#motivational_part p{
+font-size: 20px;
+line-height: 35px;
+font-weight: bold;
+}
 /* MOTIVATIONAL PART */
+/* INFO PART */
+#info{
+  width: 70%;
+  margin: 0 auto;
+}
+#info .col_33{
+  text-align: center;
+  padding: 70px;
+}
+#info .col_33 img{
+  height: 130px;
+  margin: 30px 0;
+}
+#info .col_33 .btr_style_3{
+  margin-bottom: 50px;
+}
+#info .col_66{
+  padding: 100px 100px 100px 0;
+}
+#info .col_66 h2{
+  margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#info .col_66 p{
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+#info .col_66 span{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#info .col_66 > div{
+  width: 60%;
+  height: 2px;
+  background-color: #32495B;
+  display: inline-block;
+  margin-left: 30px;
+}
+#info .col_66 ul{
+  margin-top: 30px;
+}
+#info .col_66 ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+#info .col_66 ul li i{
+  color: #FE775A;
+  margin: 0 15px 0 20px;
+}
+#info .col_66 ul li:first-child i{
+  margin: 0 15px 0 0;
+}
+/* INFO PART */
 /* PROPAGANDA */
 
 /* PROPAGANDA */
