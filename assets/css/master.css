@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* LAYOUT */
+/* float */
+div[class^="col_"]{
+  float: left;
+}
+/* float */
+/* clearfix */
+.row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+/* clearfix */
+/* colonne */
+.col_100{
+  width: calc(100%);
+}
+.col_75{
+  width: calc(100% * (3/4));
+}
+.col_66{
+  width: calc(100% * (2/3));
+}
+.col_50{
+  width: calc(100% * (1/2));
+}
+.col_33{
+  width: calc(100% * (1/3));
+}
+.col_25{
+  width: calc(100% * (1/4));
+}
+/* colonne */
+/* LAYOUT */
+/* HEADER */
+/* NAV */
+
+/* NAV */
+/* INTRODUCTION */
+
+/* INTRODUCTION */
+/* GREENSPACE */
+
+/* GREENSPACE */
+/* HEADER */
+
+/* MAIN */
+/* MOTIVATIONAL PART */
+
+/* MOTIVATIONAL PART */
+/* PROPAGANDA */
+
+/* PROPAGANDA */
+/* MAIN */
+
+/* FOOTER */
+/* SPONSOR */
+
+/* SPONSOR */
+/* LINK */
+
+/* LINK */
+/* FOOTER */
