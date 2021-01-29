@@ -249,55 +249,63 @@ font-weight: bold;
   width: 70%;
   margin: 0 auto;
 }
-#info .col_33{
+/* free spot */
+#info .free_spot .col_33{
   text-align: center;
   padding: 70px;
 }
-#info .col_33 img{
+#info .free_spot .col_33 img{
   height: 130px;
   margin: 30px 0;
 }
-#info .col_33 .btr_style_3{
+#info .free_spot .col_33 .btr_style_3{
   margin-bottom: 50px;
 }
-#info .col_66{
+#info .free_spot .col_66{
   padding: 100px 100px 100px 0;
 }
-#info .col_66 h2{
+#info .free_spot .col_66 h2{
   margin-bottom: 35px;
   font-size: 30px;
   font-weight: bolder;
 }
-#info .col_66 p{
+#info .free_spot .col_66 p{
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 20px;
 }
-#info .col_66 span{
+#info .free_spot .col_66 span{
   font-weight: bolder;
   text-transform: uppercase;
 }
-#info .col_66 > div{
+#info .free_spot .col_66 > div{
   width: 60%;
   height: 2px;
   background-color: #32495B;
   display: inline-block;
   margin-left: 30px;
 }
-#info .col_66 ul{
+#info .free_spot .col_66 ul{
   margin-top: 30px;
 }
-#info .col_66 ul li{
+#info .free_spot .col_66 ul li{
   list-style-type: none;
   display: inline-block;
 }
-#info .col_66 ul li i{
+#info .free_spot .col_66 ul li i{
   color: #FE775A;
   margin: 0 15px 0 20px;
 }
-#info .col_66 ul li:first-child i{
+#info .free_spot .col_66 ul li:first-child i{
   margin: 0 15px 0 0;
 }
+/* free spot */
+/* other spot */
+#info .other_spot .col_33 img{
+height: 200px;
+}
+/* other spot */
+
 /* INFO PART */
 /* PROPAGANDA */
 
