@@ -38,13 +38,171 @@ div[class^="col_"]{
   width: calc(100% * (1/4));
 }
 /* colonne */
+/* background color */
+.bg_lightblue{
+  background-color: #F4F9FD;
+}
+.bg_lightgreen{
+  background-color: #AFEBE4;
+}
+.bg_green{
+  background-color: #00ABB7;
+}
+.bg_grey{
+  background-color: #32495B;
+}
+.bg_orange{
+  background-color: #FE775A;
+}
+.bg_pink{
+  background-color: #FFF4EF
+}
+
+/* background color */
+
+button[class^=btr_style_]{
+  border-radius: 5px;
+  border: 2px solid #FE775A;
+  font-weight: bold;
+}
+.btr_style_1{
+  padding: 10px;
+  color: #FE775A;
+}
+.btr_style_2{
+  color: white;
+  padding: 10px;
+}
+.btr_style_3{
+  color: white;
+  padding: 20px 30px;
+}
+.btr_style_4{
+
+}
 /* LAYOUT */
+
 /* HEADER */
 /* NAV */
+/* FIXED BAR */
+header nav{
+}
+header nav .fixed_bar{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid black
+}
+header nav .fixed_bar:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+header nav .fixed_bar .container{
+  width: 70%;
+  margin: 0 15%;
+  line-height: 70px;
+  font-size: 18px;
+}
+/* left part */
+nav .fixed_bar .left_part{
+  float: left;
+}
+nav .fixed_bar li{
+  text-decoration: none;
+  display: inline;
+}
+nav .fixed_bar .left_part select{
+  font-size: 18px;
+  background-color: #F4F9FD;
+  margin-right: 15px;
+}
+nav .fixed_bar .left_part .vertical_bar{
+  height: 18px;
+  width: 1px;
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+nav .fixed_bar .left_part span{
 
+}
+/* left part */
+
+/* right part */
+nav .fixed_bar .right_part{
+  float: right;
+}
+nav .fixed_bar .right_part i{
+  color: #00ABB7;
+}
+nav .fixed_bar .right_part button{
+  margin-left: 25px;
+}
+/* right part */
+/* FIXED BAR */
+
+/* SELECT PART */
+nav .select_part{
+  width: 70%;
+  margin: 0 15%;
+  height: 70px;
+  line-height: 70px;
+}
+nav .select_part img{
+  vertical-align: middle;
+}
+nav .select_part li{
+  text-decoration: none;
+  display: inline;
+}
+.select_part .box{
+  float: right;
+}
+nav .select_part .box li{
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+nav .select_part .box li select{
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+/* SELECT PART */
 /* NAV */
 /* INTRODUCTION */
+#introduction{
+  height: 700px;
+}
+#introduction .container{
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position-x: right;
+  background-position-y: 31%;
+  height: 650px;
+}
+#introduction .container .row{
+  width: 70%;
+  margin: 0 auto;
+}
+#introduction .container .row h1{
+  font-size: 60px;
+  font-weight: bold;
 
+}
+#introduction .container .row p{
+  font-size: 20px;
+
+}
+#introduction .container .row button{
+}
+#introduction .container .row span{
+  font-size: 15px;
+}
 /* INTRODUCTION */
 /* GREENSPACE */
 
@@ -68,3 +226,9 @@ div[class^="col_"]{
 
 /* LINK */
 /* FOOTER */
+
+/* UTILITY */
+.pad_70{
+  padding-top: 70px;
+}
+/* UTILITY */
