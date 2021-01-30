@@ -249,7 +249,37 @@ font-weight: bold;
   width: 70%;
   margin: 0 auto;
 }
+/* for all spot */
+#info .row div[class^="col_"] > .box {
+  border: 2px solid #e6edf2;
+  border-radius: 5px;
+  background-color: white;
+}
+#info .box h2{
+  margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#info .box p{
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+#info .box span{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#info .box ul{
+  margin-top: 30px;
+}
+#info .box ul li i{
+  color: #FE775A;
+}
+/* for all spot */
 /* free spot */
+#info .free_spot .box{
+  margin-bottom: 60px;
+}
 #info .free_spot .col_33{
   text-align: center;
   padding: 70px;
@@ -264,36 +294,18 @@ font-weight: bold;
 #info .free_spot .col_66{
   padding: 100px 100px 100px 0;
 }
-#info .free_spot .col_66 h2{
-  margin-bottom: 35px;
-  font-size: 30px;
-  font-weight: bolder;
-}
-#info .free_spot .col_66 p{
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 20px;
-}
-#info .free_spot .col_66 span{
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-#info .free_spot .col_66 > div{
+#info .free_spot .col_66 .line{
   width: 60%;
   height: 2px;
   background-color: #32495B;
   display: inline-block;
   margin-left: 30px;
 }
-#info .free_spot .col_66 ul{
-  margin-top: 30px;
-}
 #info .free_spot .col_66 ul li{
   list-style-type: none;
   display: inline-block;
 }
 #info .free_spot .col_66 ul li i{
-  color: #FE775A;
   margin: 0 15px 0 20px;
 }
 #info .free_spot .col_66 ul li:first-child i{
@@ -301,9 +313,38 @@ font-weight: bold;
 }
 /* free spot */
 /* other spot */
-#info .other_spot .col_33 img{
-height: 200px;
+#info .other_spot{
+  text-align: center;
 }
+#info .other_spot .col_33{
+  padding: 0 60px 0 0;
+}
+#info .other_spot .col_33:last-child{
+  padding: 0;
+}
+#info .other_spot .col_33 .box{
+  padding: 40px;
+}
+#info .other_spot .col_33 img{
+  height: 130px;
+}
+#info .other_spot .col_33 h2{
+  margin-top: 20px;
+}
+#info .other_spot .col_33 .line{
+  margin: 60px auto 30px auto;
+  background-color: #32495B;
+  height: 2px;
+  width: 100%
+}
+#info .other_spot .col_33 ul li{
+  list-style-type: none;
+  text-align: left;
+}
+#info .other_spot .col_33 button{
+  margin-top: 40px;
+}
+
 /* other spot */
 
 /* INFO PART */
