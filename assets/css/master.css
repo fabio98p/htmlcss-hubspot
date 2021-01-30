@@ -247,7 +247,7 @@ font-weight: bold;
 /* INFO PART */
 #info{
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
 }
 /* for all spot */
 #info .row div[class^="col_"] > .box {
@@ -344,12 +344,55 @@ font-weight: bold;
 #info .other_spot .col_33 button{
   margin-top: 40px;
 }
-
 /* other spot */
-
 /* INFO PART */
-/* PROPAGANDA */
 
+/* PROPAGANDA */
+#propaganda {
+  text-align: center;
+  color: white;
+}
+#propaganda > .row > .col_100 {
+  width: 70%;
+  margin: 0 15%;
+  padding: 60px 0;
+}
+#propaganda .col_100 .col_25 li{
+  list-style-type: none
+}
+#propaganda > .row > .col_100 h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+#propaganda > .row > .col_100 p {
+  margin-bottom: 40px;
+}
+/* inside col_25 */
+#propaganda .col_25 > ul > li img{
+  margin: 20px 0;
+}
+#propaganda .col_25 > ul > li:nth-child(2){
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+#propaganda .col_25 > ul > li:nth-child(2) span:after {
+  content: "+"
+}
+
+/* inside col_25 */
+
+/* border */
+#propaganda > .row > .col_100 > .box .row:first-child{
+  border-bottom: 1px solid white;
+}
+#propaganda > .row > .col_100 .col_25 {
+  border-right: 1px solid white;
+}
+#propaganda > .row > .col_100 .col_25:last-child {
+  border-right: 0;
+}
+/* border */
 /* PROPAGANDA */
 /* MAIN */
 
