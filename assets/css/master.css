@@ -186,43 +186,46 @@ nav .select_part .box li select{
 /* SELECT PART */
 /* NAV */
 /* INTRODUCTION */
-#introduction{
+#jumbo{
   height: 725px;
 }
-#introduction .container{
+#jumbo .container{
+  position: relative;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 1600px;
   background-position-x: right;
   background-position-y: 31%;
-  height: 650px;
+  height: 725px;
 }
-#introduction .container .row{
+#jumbo .container .row{
   width: 70%;
   margin: 0 auto;
 }
-#introduction .container .row .col_50 > *{
+#jumbo .container .row .col_50 > *{
   margin-bottom: 25px;
 }
-#introduction .container .row h1{
+#jumbo .container .row h1{
   font-size: 50px;
   font-weight: bolder;
   margin-top: 50px;
 }
-#introduction .container .row p{
+#jumbo .container .row p{
   font-size: 18px;
   line-height: 30px;
 }
-#introduction .container .row span{
+#jumbo .container .row span{
   font-size: 15px;
 }
-/* greenspace */
 #greenspace{
+  position: absolute;
+  bottom: 0;
   border-top: 3px solid #32495B;
   border-bottom: 3px solid #32495B;
   height: 75px;
+  width: 100%;
+  margin-left: -15%;
 }
-/* greenspace */
 /* INTRODUCTION */
 /* HEADER */
 
@@ -322,11 +325,17 @@ font-weight: bold;
 #info .other_spot{
   text-align: center;
 }
-#info .other_spot .col_33{
-  padding: 0 60px 0 0;
+#info .other_spot .col_33 .box{
+  margin-right: 5%;
+  margin-left: 5%;
 }
-#info .other_spot .col_33:last-child{
-  padding: 0;
+#info .other_spot .col_33:first-child .box{
+  margin-right: 5%;
+  margin-left: 0;
+}
+#info .other_spot .col_33:last-child .box{
+  margin-right: 0;
+  margin-left: 5%;
 }
 #info .other_spot .col_33 .box{
   padding: 40px;
@@ -445,6 +454,7 @@ font-weight: bold;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
+  min-width: 100px;
 }
 /* agency logo */
 /* woman */
@@ -462,7 +472,8 @@ font-weight: bold;
 #sponsor .woman img{
   position: absolute;
   right: 0;
-  width: 45%
+  width: 45%;
+  min-width: 250px;
 }
 #sponsor .woman li{
   list-style-type: none;
