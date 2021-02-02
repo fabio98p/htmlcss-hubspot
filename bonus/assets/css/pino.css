@@ -400,8 +400,11 @@ button[class^=btr_]{
 .h_200_px{
   height: 200px;
 }
-.h_150_px{
+.h_130_px{
   height: 150px;
+}
+.h_150_px{
+  height: 130px;
 }
 .h_100_px{
   height: 100px;

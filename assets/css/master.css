@@ -261,6 +261,13 @@ font-weight: bold;
 #info .box ul li i{
   color: #FE775A;
 }
+#info .box ul li:before{
+  margin-right: 10px;
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  font-weight: 900;
+  color: #FE775A;
+}
 /* for all spot */
 /* free spot */
 #info .free_spot .box{
