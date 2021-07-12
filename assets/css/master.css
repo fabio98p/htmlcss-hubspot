@@ -156,6 +156,7 @@ nav .select_part .box li{
   margin-left: 25px;
 }
 nav .select_part .box li select{
+  background-color: white;
   font-size: 15px;
   font-weight: bold;
   padding-right: 20px;
