@@ -571,6 +571,8 @@ margin: 45px 0;
 .bg_white{
   background-color: #FFFFFF
 }
-
 /* background color */
+.pointer{
+    cursor: pointer;
+}
 /* UTILITY */
